@@ -4,7 +4,7 @@
 
 # Loads automapper and associated packages
 library("automapper")
-library("tmap")
+library(tmap)
 
 # Shapefiles & Test Data
 # Note: File paths may need to be updated depending on where data is stored.
