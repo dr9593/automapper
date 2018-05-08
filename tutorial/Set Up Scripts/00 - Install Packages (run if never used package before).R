@@ -5,9 +5,12 @@
 #This should only need to be run once, which prepares all
 #packages to be downloaded to the machine.
 
-devtools::load_all()
-devtools::install()
-#Downloads automapper packages
-library("automapper")
+#Installs packages on machine
+x <- c("devtools", "tmap")
+install.packages(x)
 
-installed.packages("tmap")
+#Install automapper package
+library(devtools)
+install_github("dr9593/automapper")
+#library("automapper") #Unsu
+
