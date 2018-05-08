@@ -1,0 +1,15 @@
+Package: automapper
+Title: What the Package Does (one line, title case)
+Version: 0.0.0.9000
+Authors@R: person("Daniel", "Kryger", email = "kryger.daniel@gmail.com", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+Depends: R (>= 3.4.4)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports:
+	rgdal,
+	sp,
+	dplyr,
+	tmap
+RoxygenNote: 6.0.1
