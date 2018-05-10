@@ -10,10 +10,15 @@ df_key <- "district" #Key variable in dataframe to merge to geospatial data
 spatial_key <- "name_en" ##Key variable in geospatial data to merge with dataframe
 spatial_layer <- yem_admin2  #Define geospatial data
 
-# Syria
+# Syria (admin4)
 df_key <- "q_town"
 spatial_key <- "PCODE"
 spatial_layer <- syr_pplp_adm4
+
+# Syria (admin3)
+df_key <- "q_sbd"
+spatial_key <- "PCODE"
+spatial_layer <- syr_admin3
 
 # Libya
 df_key <- "community"
