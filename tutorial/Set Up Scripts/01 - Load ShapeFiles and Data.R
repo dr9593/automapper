@@ -25,4 +25,3 @@ load_shape_files(folder_path = syria_shapefiles)
 df <- read.csv(syria_test_data_sbd, sep = ",",
                fileEncoding = "UTF-8",
                stringsAsFactors = FALSE)
-
