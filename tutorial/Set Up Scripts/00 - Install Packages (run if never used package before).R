@@ -12,5 +12,4 @@ install.packages(x)
 #Install automapper package
 library(devtools)
 install_github("dr9593/automapper")
-#library("automapper") #Unsu
 
