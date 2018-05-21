@@ -1,21 +1,6 @@
 ################################################################################
-### Syria Mapping Example (Iterated Output, Multiple Items and Governorates) ###
+### Syria Mapping Example (Iterated Output, Multiple Items and Governorates with Missing) ###
 ################################################################################
-
-# This script will print out a map of a governorate as a background layer, and the
-# and then for every column in the imported .csv file (excepting the id column used
-# to join the dataset to the spatial data), will create a map layering this column's
-# numeric data on top of the governorate map for  analysis, then outputting the
-# resulting map to a subfolder called by the governorate's name. This will then repeat
-# for every governorate where there is data.
-
-# Labeling each region with data is optional, as the resulting map may be too cluttered.
-# In this case, both versions have been produced, in option a and b below.
-
-# As the current HDX Syria Spatial data does shows communities, this is a good
-# example of mapping data by communities as points, instead of by polygons
-# (as would be appropriate if we were mapping subdistrict medians).
-
 
 
 # DEFINE NEEDED INPUTS HERE
